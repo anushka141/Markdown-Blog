@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: whitesmoke;
+    padding: 2%;
+
+}
+.container .title{
+    font-size: 2.5rem;
+    text-shadow: 2px 1px 4px gray;
+    color: teal;
+    margin-bottom: 2%;
+}
+.new-btn{
+    background-color: teal;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+    text-shadow: 1px 1px 4px black;
+
+    padding: 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.box{
+    margin-top: 4%;
+    background-color: #ccdcdc;
+    border: 1px solid teal;
+    border-radius: 5px;
+}
+.box .article-title{
+    margin: 1%;
+    font-size: 1.4rem;
+}
+.box .article-date{
+    margin-left: 1%;
+    color: gray;
+    font-size: 1.1rem;
+
+}
+.box .article-desc{
+    margin: 1%;
+
+}
+.container .new-heading{
+    font-size: 2.5rem;
+    text-shadow: 2px 1px 4px gray;
+    color: teal;
+}
+.new-form .new-field{
+    margin-top: 2%;
+}
+
+.new-form .new-field input,.new-form .new-field textarea{
+    padding: 1%;
+    width: 40%;
+}
+.new-form .cancle-btn{
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+    text-shadow: 1px 1px 4px black;
+    margin-top: 2%;
+    padding: 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.new-form .save-btn{
+    background-color: teal;
+    color: white;
+    outline: none;
+    box-shadow: 2px 2px 5px gray;
+    text-shadow: 1px 1px 4px black;
+    margin-left: 1%;
+    padding: 8px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
